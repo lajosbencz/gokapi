@@ -1,0 +1,13 @@
+
+.page-enter-active,
+.page-leave-active {
+  position: relative;
+  transition: all 0.2s;
+  opacity: 1;
+  top: 0;
+}
+.page-enter,
+.page-leave-to {
+  opacity: 0;
+  //top: -20px
+}
