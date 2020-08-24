@@ -23,16 +23,16 @@ export default {
     mode: 'out-in'
   },
   plugins: [
-    '~/plugins/wamp.client.js'
+    '~/plugins/wamp.client.js',
+    '~/plugins/iview',
   ],
   components: false,
   buildModules: [
   ],
   modules: [
-    // Doc: https://bootstrap-vue.js.org
-    ['bootstrap-vue/nuxt', {
-      icons: true,
-    }],
+    // ['bootstrap-vue/nuxt', {
+    //   icons: true,
+    // }],
     '@nuxtjs/pwa',
     '@nuxtjs/style-resources',
   ],
@@ -49,7 +49,14 @@ export default {
       config.node = {
         fs: 'empty'
       }
-      // ....
+      if(isDev && isClient) {
+        // config.module.rules.push({
+        //   enforce: 'pre',
+        //   test: /\.(js|vue)$/,
+        //   loader: 'eslint-loader',
+        //   exclude: /(node_modules)/
+        // })
+      }
     }
   }
 }

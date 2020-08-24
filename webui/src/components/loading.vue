@@ -47,7 +47,7 @@ export default {
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(red($primary), green($primary), blue($primary), 0.6);
+    background: rgba(0, 68, 204, 0.6);
   }
 
   .image {
@@ -57,7 +57,7 @@ export default {
   .title {
     text-transform: uppercase;
     font-weight: bold;
-    color: $white;
+    color: #fff;
     z-index: 10;
   }
 

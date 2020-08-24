@@ -13,12 +13,14 @@
     "bootstrap": "^4.5.0",
     "bootstrap-vue": "^2.15.0",
     "fs": "0.0.1-security",
+    "iview": "^3.5.4",
     "nuxt": "^2.14.0",
     "nuxt-wamp": "^1.0.3",
     "vue-wamp": "^3.1.6"
   },
   "devDependencies": {
     "@nuxtjs/style-resources": "^1.0.0",
+    "eslint-loader": "^4.0.2",
     "node-sass": "^4.14.1",
     "sass-loader": "^9.0.3"
   }
