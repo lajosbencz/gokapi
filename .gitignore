@@ -6,3 +6,12 @@ go.sum
 
 *.exe
 *.so
+
+# Pkger
+pkged.go
+
+# Builds
+/gokapi
+/gokapi.exe
+/gokapi.exe~
+/gokapi.so
